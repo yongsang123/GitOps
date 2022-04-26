@@ -12,6 +12,6 @@ pipeline {
         kubernetesDeploy(kubeconfigId: 'kubeconfig',
                          configs: '*.yaml')
       }
-    }    
+    }
   }
 }
